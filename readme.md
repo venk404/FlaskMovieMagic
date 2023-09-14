@@ -46,8 +46,8 @@ To get started with FlaskMovieMagic locally, follow these steps:
 5. Open your web browser and visit http://localhost:5000 to access the FlaskMovieMagic website.
 
 Usage:
-   Add a Movie: Click the "Add" button to search for a movie by title and add it to your list.
-   Edit a Movie: Click the "Edit" button next to a movie to modify its rating and review.
-   Delete a Movie: Click the "Delete" button to remove a movie from your list.
+Add a Movie: Click the "Add" button to search for a movie by title and add it to your list.
+Edit a Movie: Click the "Edit" button next to a movie to modify its rating and review.
+Delete a Movie: Click the "Delete" button to remove a movie from your list.
 
 
