@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% from 'bootstrap5/form.html' import render_field %}
+{% from 'bootstrap5/form.html' import render_form %}
+{% block title %}Add Movie{% endblock %}
+
+{% block content %}
+<div class="content">
+    <h1 class="heading">Add a Movie</h1>
+    <form method="post">
+        {{ form.csrf_token() }}
+        {{ render_field(form.title) }}
+        {{ render_field(form.submit) }}
+        <a href="{{ url_for('home') }}" class="btn btn-secondary">Back</a>
+    </form>    
+</div>
+<div>
+    <ul>
+        {% if search_results is defined %}
+            {% for item in search_results['Search'] %}
+            <li>
+                <a href="{{url_for('get_movie_details', parameter_name=item['imdbID'])}}" target="_parent">{{item['Title']}} - {{item['Year']}}</a>
+            </li>
+            {% endfor %}            
+        {% endif %}
+    </ul>
+</div>
+{% endblock %}
