@@ -8,8 +8,7 @@ FlaskMovieMagic is a simple and interactive movie website project built using Py
 - [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -20,9 +19,9 @@ FlaskMovieMagic is a simple and interactive movie website project built using Py
 
 ## Demo
 
-[https://twitter.com/i/status/1702353519565512915]
 
-Check out our live demo [here](#) to see FlaskMovieMagic in action!
+
+Check out our live demo [here](https://twitter.com/i/status/1702353519565512915) to see FlaskMovieMagic in action!
 
 ## Getting Started
 
