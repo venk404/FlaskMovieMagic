@@ -19,8 +19,6 @@ FlaskMovieMagic is a simple and interactive movie website project built using Py
 
 ## Demo
 
-
-
 Check out our live demo [here](https://twitter.com/i/status/1702353519565512915) to see FlaskMovieMagic in action!
 
 ## Getting Started
@@ -45,9 +43,9 @@ To get started with FlaskMovieMagic locally, follow these steps:
 
 5. Open your web browser and visit http://localhost:5000 to access the FlaskMovieMagic website.
 
-Usage:
-Add a Movie: Click the "Add" button to search for a movie by title and add it to your list.
-Edit a Movie: Click the "Edit" button next to a movie to modify its rating and review.
-Delete a Movie: Click the "Delete" button to remove a movie from your list.
+## Usage
+1. Add a Movie: Click the "Add" button to search for a movie by title and add it to your list.
+2. Edit a Movie: Click the "Edit" button next to a movie to modify its rating and review.
+3. Delete a Movie: Click the "Delete" button to remove a movie from your list.
 
 
