@@ -45,7 +45,7 @@ To get started with FlaskMovieMagic locally, follow these steps:
 
 ## Usage
 1. Add a Movie: Click the "Add" button to search for a movie by title and add it to your list.
-2. Edit a Movie: Click the "Edit" button next to a movie to modify its rating and review
+2. Edit a Movie: Click the "Edit" button next to a movie to modify its rating and review.
 3. Delete a Movie: Click the "Delete" button to remove a movie from your list.
 
 
